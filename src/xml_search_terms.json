@@ -1,0 +1,131 @@
+{
+  "interior_features": {
+    "search_term": "InteriorFeatures",
+    "result": "initial"
+  },
+
+  "bathrooms_half": {
+    "search_term": "BathroomsTotalInteger",
+    "result": "initial"
+  },
+  "bathrooms_full": {
+    "search_term": "BathroomsFull",
+    "result": "initial"
+  },
+  "lowerlevel_total_bath": {
+    "search_term": "LowerLevelsTotalBaths",
+    "result": "initial"
+  },
+  "upperlevel_total_bath": {
+    "search_term": "UpperLevelsTotalBaths",
+    "result": "initial"
+  },
+  "mainlevel_total_bath": {
+    "search_term": "MainLevelTotalBaths",
+    "result": "initial"
+  },
+  "lowerLevel_total_bedroom": {
+    "search_term": "LowerLevelsTotalBedrooms",
+    "result": "initial"
+  },
+  "upperlevel_total_bedroom": {
+    "search_term": "UpperLevelsTotalBedrooms",
+    "result": "initial"
+  },
+  "mainlevel_total_bedroom": {
+    "search_term": "MainLevelBedrooms",
+    "result": "initial"
+  },
+  "cooling": {
+    "search_term": "Cooling",
+    "result": "initial"
+  },
+  "construction_materials": {
+    "search_term": "ConstructionMaterials",
+    "result": "initial"
+  },
+  "exterior_features": {
+    "search_term": "ExteriorFeatures",
+    "result": "initial"
+  },
+  "fireplace": {
+    "search_term": "Fireplace",
+    "result": "initial"
+  },
+  "flooring": {
+    "search_term": "Flooring",
+    "result": "initial"
+  },
+  "accessibility_features": {
+    "search_term": "AccessibilityFeatures",
+    "result": "initial"
+  },
+  "heating": {
+    "search_term": "Heating",
+    "result": "initial"
+  },
+  "parking_features": {
+    "search_term": "ParkingFeatures",
+    "result": "initial"
+  },
+  "patio_porch_features": {
+    "search_term": "PatioAndPorchFeatures",
+    "result": "initial"
+  },
+  "roof": {
+    "search_term": "Roof",
+    "result": "initial"
+  },
+  "levels": {
+    "search_term": "Levels",
+    "result": "initial"
+  },
+  "walls_ceilings": {
+    "search_term": "WallsCeilings",
+    "result": "initial"
+  },
+  "window_features": {
+    "search_term": "WindowFeatures",
+    "result": "initial"
+  },
+  "basement": {
+    "search_term": "Basement",
+    "result": "initial"
+  },
+  "cooling_fuel": {
+    "search_term": "CoolingFuel",
+    "result": "initial"
+  },
+  "heating_fuel": {
+    "search_term": "HeatingFuel",
+    "result": "initial"
+  },
+  "story_list": {
+    "search_term": "StoryList",
+    "result": "initial"
+  },
+  "parking_types": {
+    "search_term": "ParkingTypes",
+    "result": "initial"
+  },
+  "other_structures": {
+    "search_term": "OtherStructuresList",
+    "result": "initial"
+  },
+  "building_features": {
+    "search_term": "BuildingFeatures",
+    "result": "initial"
+  },
+  "fencing": {
+    "search_term": "Fencing",
+    "result": "initial"
+  },
+  "features": {
+    "search_term": "features",
+    "result": "initial"
+  },
+  "listing_rooms": {
+    "search_term": "ListingRooms",
+    "result": "initial"
+  }
+}
