@@ -98,12 +98,36 @@ def search_beautifulsoup(search_phrase):
         # print("s in search_result", s.get_text())
         return s.get_text()
 
+
+def get_listing_address(listing_obj):
+
+	full_street_address = search_beautifulsoup("FullStreetAddress")
+	city = search_beautifulsoup("City")
+	county = search_beautifulsoup("County")
+	postal_code = search_beautifulsoup("PostalCode")
+	postal_code_plus4 = search_beautifulsoup("PostalCodePlus4")
+	latitude = search_beautifulsoup("Latitude")
+	longitude = search_beautifulsoup("Longitude")
+
+	print(full_street_address, "-->", city, "-->", county, "-->", postal_code, "-->", postal_code_plus4, "-->", latitude, "-->", longitude )
+
+# LocationAddress
+# 	City
+# 	County
+# 	FullStreetAddress
+# 	PostalCode
+# 	PostalCodePlus4
+
 class Search:
     def __init__(self, name, xml_search_terms, categories):
         self.name = name
         self.xml_search_terms = xml_search_terms
         self.categories = categories
         self.phrases = [] # based on parsing the MLS Listing XML for the search terms
+
+class Listing:
+	def __init__(self, full_street_address, city, county, postal_code, latitude, longitude):
+		self.full_street_address = full_street_address
 
 
 
@@ -121,40 +145,42 @@ class Search:
 
 # phrase_matcher(categories, vocab, public_remarks_doc)
 
+def xml_searches():
+	with open(xml_search_json , 'r') as f:
+		data = json.load(f)
 
-with open(xml_search_json , 'r') as f:
-    data = json.load(f)
+	f.close()
+	xml_searches = []
 
-f.close()
-xml_searches = []
+	for i in data:
+		name = i
+		# print(name)
+		xml_search_terms = data[name]['xml_search_terms']
+		# print(search_terms)
+		categories = data[name]['categories']
+		# print(categories)
+		search = Search(name, xml_search_terms, categories)
+		# print(s.name, "-->", s.search_terms, "-->", s.categories)
+		xml_searches.append(search)
 
-for i in data:
-    name = i
-    # print(name)
-    xml_search_terms = data[name]['xml_search_terms']
-    # print(search_terms)
-    categories = data[name]['categories']
-    # print(categories)
-    search = Search(name, xml_search_terms, categories)
-    # print(s.name, "-->", s.search_terms, "-->", s.categories)
-    xml_searches.append(search)
+	for s in xml_searches:
+		# print(s.name, "-->", s.search_terms, "-->", s.categories)
 
-for s in xml_searches:
-    # print(s.name, "-->", s.search_terms, "-->", s.categories)
+		for term in s.xml_search_terms:
+			print("\n\n***FIND IN XML FOR MLS LISTING: ", term)
+			doc = nlp(search_beautifulsoup(term))
+			print("\nTEXT FROM MLS LISTING: \n", doc)
 
-    for term in s.xml_search_terms:
-        print("\n\n***FIND IN XML FOR MLS LISTING: ", term)
-        doc = nlp(search_beautifulsoup(term))
-        print("\nTEXT FROM MLS LISTING: \n", doc)
+			# print("\n\nStarting Category\n")
+			
+			for category in s.categories:
+				print("\nCATEGORY FOR PHRASE MATCHER: ", category)
+				v = load_vocab(vocab_csv)
+				matches = phrase_matcher(category, v, doc)
+				for match_id, start, end in matches:
+					print("\nMATCH: ")
+					span = doc[start:end]
+					print(span.text)
 
-        # print("\n\nStarting Category\n")
-        
-        for category in s.categories:
-            print("\nCATEGORY FOR PHRASE MATCHER: ", category)
-            v = load_vocab(vocab_csv)
-            matches = phrase_matcher(category, v, doc)
-            for match_id, start, end in matches:
-                print("\nMATCH: ")
-                span = doc[start:end]
-                print(span.text)
+get_listing_address()
 
