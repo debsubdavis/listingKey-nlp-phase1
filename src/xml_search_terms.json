@@ -1,0 +1,131 @@
+{
+  "public_remarks": {
+    "xml_search_terms": ["PublicRemarks"],
+    "categories": ["Kitchen"]
+  },
+  "interior_features": {
+    "xml_search_terms": ["InteriorFeatures"],
+    "categories": []
+  },
+
+  "bathrooms_half": {
+    "xml_search_terms": ["BathroomsTotalInteger"],
+    "categories": []
+  },
+  "bathrooms_full": {
+    "xml_search_terms": ["BathroomsFull"],
+    "categories": []
+  },
+  "lowerlevel_total_bath": {
+    "xml_search_terms": ["LowerLevelsTotalBaths"],
+    "categories": []
+  },
+  "upperlevel_total_bath": {
+    "xml_search_terms": ["UpperLevelsTotalBaths"],
+    "categories": []
+  },
+  "mainlevel_total_bath": {
+    "xml_search_terms": ["MainLevelTotalBaths"],
+    "categories": []
+  },
+  "lowerLevel_total_bedroom": {
+    "xml_search_terms": ["LowerLevelsTotalBedrooms"],
+    "categories": []
+  },
+  "upperlevel_total_bedroom": {
+    "xml_search_terms": ["UpperLevelsTotalBedrooms"],
+    "categories": []
+  },
+  "mainlevel_total_bedroom": {
+    "xml_search_terms": ["MainLevelBedrooms"],
+    "categories": []
+  },
+  "cooling": {
+    "xml_search_terms": ["Cooling"],
+    "categories": []
+  },
+  "construction_materials": {
+    "xml_search_terms": ["ConstructionMaterials"],
+    "categories": []
+  },
+  "exterior_features": {
+    "xml_search_terms": ["ExteriorFeatures"],
+    "categories": []
+  },
+  "flooring": {
+    "xml_search_terms": ["Flooring"],
+    "categories": []
+  },
+  "accessibility_features": {
+    "xml_search_terms": ["AccessibilityFeatures"],
+    "categories": []
+  },
+  "heating": {
+    "xml_search_terms": ["Heating"],
+    "categories": []
+  },
+  "parking_features": {
+    "xml_search_terms": ["ParkingFeatures"],
+    "categories": []
+  },
+  "patio_porch_features": {
+    "xml_search_terms": ["PatioAndPorchFeatures"],
+    "categories": []
+  },
+  "roof": {
+    "xml_search_terms": ["Roof"],
+    "categories": []
+  },
+  "levels": {
+    "xml_search_terms": ["Levels"],
+    "categories": []
+  },
+  "walls_ceilings": {
+    "xml_search_terms": ["WallsCeilings"],
+    "categories": []
+  },
+  "window_features": {
+    "xml_search_terms": ["WindowFeatures"],
+    "categories": []
+  },
+  "basement": {
+    "xml_search_terms": ["Basement"],
+    "categories": []
+  },
+  "cooling_fuel": {
+    "xml_search_terms": ["CoolingFuel"],
+    "categories": []
+  },
+  "heating_fuel": {
+    "xml_search_terms": ["HeatingFuel"],
+    "categories": []
+  },
+  "story_list": {
+    "xml_search_terms": ["StoryList"],
+    "categories": []
+  },
+  "parking_types": {
+    "xml_search_terms": ["ParkingTypes"],
+    "categories": []
+  },
+  "other_structures": {
+    "xml_search_terms": ["OtherStructuresList"],
+    "categories": []
+  },
+  "building_features": {
+    "xml_search_terms": ["BuildingFeatures"],
+    "categories": []
+  },
+  "fencing": {
+    "xml_search_terms": ["Fencing"],
+    "categories": []
+  },
+  "features": {
+    "xml_search_terms": ["Features"],
+    "categories": []
+  },
+  "listing_rooms": {
+    "xml_search_terms": ["ListingRooms"],
+    "categories": []
+  }
+}
