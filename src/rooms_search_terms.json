@@ -1,0 +1,26 @@
+{
+  "Rooms": [
+    {
+      "name": "Kitchen",
+      "url": "kitchens/add",
+      "xml_searches": [
+        {
+          "xml_search_term": "PublicRemarks",
+          "subcategories": [
+            "KitchenAmenitiesSelected",
+            "KitchenCountertopsSelected"
+          ]
+        },
+        {
+          "xml_search_term": "EntryLevel",
+          "subcategories": ["KitchenFloorLevel"]
+        }
+      ]
+    },
+    {
+      "name": "Gym",
+      "url": "gym/add",
+      "xml_searches": {}
+    }
+  ]
+}

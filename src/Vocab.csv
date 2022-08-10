@@ -1,14 +1,14 @@
-﻿Phrase,Category,SubCategory,Selection
-backsplash,Kitchen,Amenities,Backsplash
-double sink,Kitchen,Amenities,Double Sink
-island,Kitchen,Amenities,Island
-walk-in pantry,Kitchen,Amenities,Walk-in Pantry
-walk in pantry,Kitchen,Amenities,Walk-in Pantry
-concrete counter,Kitchen,CounterTops,Concrete
-granite counter,Kitchen,CounterTops,Granite
-laminate counter,Kitchen,CounterTops,Laminate
-marble counter,Kitchen,CounterTops,Marble
-quartz counter,Kitchen,CounterTops,Quartz
-quartz countertop,Kitchen,CounterTops,Quartz
-quartzite counter,Kitchen,CounterTops,Quartzite
-recycled glass counter,Kitchen,CounterTops,Recycled Glass
+﻿Phrase,Category,SubCategory,Value
+backsplash,Kitchen,KitchenAmenitiesSelected,110
+double sink,Kitchen,KitchenAmenitiesSelected,109
+island,Kitchen,KitchenAmenitiesSelected,106
+walk-in pantry,Kitchen,KitchenAmenitiesSelected,108
+walk in pantry,Kitchen,KitchenAmenitiesSelected,108
+concrete counter,Kitchen,KitchenCountertopsSelected,16
+granite counter,Kitchen,KitchenCountertopsSelected,13
+laminate counter,Kitchen,KitchenCountertopsSelected,15
+marble counter,Kitchen,KitchenCountertopsSelected,18
+quartz counter,Kitchen,KitchenCountertopsSelected,14
+quartz countertop,Kitchen,KitchenCountertopsSelected,14
+quartzite counter,Kitchen,KitchenCountertopsSelected,19
+recycled glass counter,Kitchen,KitchenCountertopsSelected,17
